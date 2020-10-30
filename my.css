@@ -1,0 +1,13 @@
+#inputWrapper {
+    padding-right: 6px;
+}
+
+#input {
+    width: 100%;
+}
+
+#output {
+    border: 1px solid black;
+    min-height: 40px;
+    padding: 2rem;
+}
