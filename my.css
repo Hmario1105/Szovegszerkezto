@@ -39,3 +39,9 @@ html {
     padding: 5px;
     background-color: lightgreen;
 }
+
+@media (max-width: 768px) {
+    #inputWrapper {
+        padding: 0;
+    }
+}
