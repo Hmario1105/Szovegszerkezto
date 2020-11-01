@@ -1,5 +1,5 @@
 html {
-    width: 600px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -40,8 +40,38 @@ html {
     background-color: lightgreen;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     #inputWrapper {
-        padding: 0;
+        font-size: 20px;
+    }
+} 
+
+@media (max-width: 700px) {
+    #inputWrapper {
+        font-size: 20px;
     }
 }
+
+@media (max-width: 500px) {
+    #inputWrapper {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    #inputWrapper {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 300px) {
+    #inputWrapper {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 100px) {
+    #inputWrapper {
+        font-size: 40px;
+    }
+} 
